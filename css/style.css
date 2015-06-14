@@ -10,8 +10,17 @@ body h1 {
     padding: 6px; }
     #team-members .member img {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+      #team-members .member img:hover {
+        transform: scale(1.1); }
     #team-members .member div.name {
-      text-align: center; }
+      text-align: center;
+      margin-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */

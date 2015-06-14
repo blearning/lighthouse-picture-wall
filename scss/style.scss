@@ -17,10 +17,23 @@ body {
     img {
       width: 200px;
       height: 200px;
+      
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      
+      box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
 
     div.name {
       text-align: center;  
+      margin-top:15px;
     }
   }
 
